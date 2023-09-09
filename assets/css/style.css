@@ -192,3 +192,31 @@ section{
     padding: .8rem;
     text-align: justify;
 }
+
+/*About Section*/
+.about .row{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.row .about-text{
+    width: 40%;
+}
+.row .about-text h3{
+    margin: 1rem 0;
+}
+
+.row .about-text ul{
+    margin: 1rem 0 2rem 2rem;
+    list-style: disc;
+}
+
+.row .about-img{
+    width: 60%;
+}
+
+.row .about-img img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
