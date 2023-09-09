@@ -108,3 +108,29 @@ section{
     background-color: #f33f3f;
     color: #fff;
 }
+
+/*Hero Section*/
+.hero{
+    margin: 0 ;
+    width: 100%;
+    height: calc(100vh - 4.08rem);
+    background-image: url('../img/bg-section.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroContent{
+    color: #fff;
+    text-align: center;
+}
+
+.heroContent h2{
+    font-size: 5vmin;
+}
+
+.heroContent h1{
+    font-size: 7vmin;
+}
