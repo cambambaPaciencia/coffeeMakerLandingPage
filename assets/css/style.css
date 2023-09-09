@@ -231,4 +231,77 @@ footer p span:hover{
     cursor: pointer;
 }
 
+/*Mobile Responsivity*/
+@media screen and (max-width: 858px) {
+    /*Navigation Bar*/
+ .menuBtn{
+     display: block;
+ }
 
+ .navBar{
+     padding: 1rem 1.5rem;
+ }
+
+ .navLinks {
+     height: calc(100vh - 3.5rem);
+     width: 100%;
+     background-color: #29292e;
+     position: absolute;
+     top: 4rem;
+     right: 0;
+     left: -100%;
+     flex-direction: column;
+     align-items: center;
+     transition: all .5s ease;
+ }
+
+ .mobileMenu{
+     left: 0;
+ }
+
+ .navLinks li:nth-child(1){
+     margin-top: 8rem;
+ }
+
+ .navLinks li{
+     font-size: 16pt;
+     padding: .8rem;
+ }
+
+ .navLinks li a{
+     color: #fff;
+     font-weight: normal;
+ }
+
+ .heroContent{
+     align-self: flex-end;
+     padding-bottom: 6rem;
+ } 
+
+ .product .row{
+     flex-direction: column;
+     flex-wrap: nowrap;
+ }
+
+ .product .row .col{
+     width: 100%;
+ }
+
+ .about .row{
+     flex-direction: column;
+ }
+
+ .row .about-text{
+     width: 100%;
+     text-align: center;
+ }
+
+ .row .about-text ul{
+     text-align: left;
+ }
+
+ .row .about-img{
+     margin-top: 2rem;
+     width: 100%;
+ }
+}

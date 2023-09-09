@@ -190,6 +190,16 @@
         <footer>
             <p>COPYRIGHT &COPY; 2023 SHAHZAD AHMAD - DESIGNED BY <span class="red">MIGUEL KAMBAMBA</span></p>
         </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menuBtn');
+        const navLinks = document.querySelector('.navLinks');
+
+        menuBtn.addEventListener('click', ()=>{
+            navLinks.classList.toggle('mobileMenu');
+            menuBtn.classList.toggle('active');
+        });
+    </script>
     
 </body>
 </html>
