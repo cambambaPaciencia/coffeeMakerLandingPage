@@ -134,3 +134,61 @@ section{
 .heroContent h1{
     font-size: 7vmin;
 }
+
+/*Product Section*/
+.sectionHeading{
+    color: #f33f3f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.sectionHeading h1{
+    font-size: 2.5rem;
+}
+
+.product .row {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.product .row .col{
+    width: 30%;
+    flex: 1 1 30%;
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+    box-shadow: 0.2rem 0.3rem 1rem #ceced5;
+}
+
+.product .row .col:hover{
+    cursor: pointer;
+}
+
+.product .row .col img{
+    width: 100%;
+    height: 220px;
+}
+
+.product .col .prodInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+}
+
+.prodInfo .rating{
+    display: flex;
+}
+
+.prodInfo .rating li{
+    margin-left: .5rem;
+}
+
+.product .col p{
+    padding: .8rem;
+    text-align: justify;
+}
