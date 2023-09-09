@@ -220,3 +220,15 @@ section{
     border-radius: .5rem;
 }
 
+/*Footer*/
+footer p{
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 1.5rem;
+}
+
+footer p span:hover{
+    cursor: pointer;
+}
+
+
