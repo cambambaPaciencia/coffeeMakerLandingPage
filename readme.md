@@ -1,0 +1,1 @@
+A landing page for a Coffee builded with HTML, CSS and JS, a fully responsive webpage.
